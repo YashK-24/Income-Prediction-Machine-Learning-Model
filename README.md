@@ -1,1 +1,1 @@
-# Income-Prediction-Machine-Learning-Model-
+# Income-Prediction-Machine-Learning-Model
