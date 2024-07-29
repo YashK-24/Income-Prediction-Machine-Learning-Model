@@ -4,16 +4,16 @@
 This project involves building a machine learning model to predict income levels based on various demographic features. The dataset used contains both numerical and categorical data, and the project includes steps for data cleaning, exploratory data analysis (EDA), feature scaling, and model training. The goal is to classify individuals into income categories accurately.
 
 ## Table of Contents
-1. Importing Libraries
-2. Data Cleaning
-3. EDA (Exploratory Data Analysis)
+1. [Importing Libraries](#importing-libraries)
+2. [Data Cleaning](#data-cleaning)
+3. [EDA (Exploratory Data Analysis)](#eda)
    - Exploring Numeric Columns
    - Excluding `capital-gain` and `capital-loss` Columns
    - Exploring Categorical Data
    - Bias Towards United States Entries
-4. Splitting Data into Independent and Dependent Variables
-5. Feature Scaling
-6. ML Model: Random Forest Classifier
+4. [Splitting Data into Independent and Dependent Variables](#splitting-data-into-independent-and-dependent-variables)
+5. [Feature Scaling](#feature-scaling)
+6. [ML Model: Logistic Regression model](#ml-model-logistic-regression-model)
 
 ## Content
 ### Importing Libraries
@@ -42,7 +42,7 @@ Separating the features (independent variables) from the target variable (depend
 Standardizing the features to ensure they contribute equally to the model training process.
 
 ### ML Model: Logistic Regression model
-Trained a Logistic Regression model on the processed data to predict income levels,achieving *81%* acurracy score.
+Trained a Logistic Regression model on the processed data to predict income levels,achieving **81%** acurracy score.
 
 ## Conclusion
 In this project, I've successfully built a machine learning model to predict income levels based on demographic data. The data cleaning and exploratory data analysis steps were crucial in understanding and preparing the dataset for modeling. By using the Logistic Regression model, I'we achieved a robust and interpretable model. Future improvements could include trying different algorithms, performing hyperparameter tuning, and addressing any potential biases in the dataset. This project demonstrates the importance of thorough data preprocessing and the effectiveness of logistic regression in classification tasks.
